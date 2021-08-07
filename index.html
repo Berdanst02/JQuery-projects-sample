@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Variables Project - The 3 Assignments</title>  
+    
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/vader/jquery-ui.css"/>
+    <link rel='stylesheet' href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script> 
+    </head>
+    
+<body>
+    <h1>The 3 Assignments | Mileage, Report Card and Calorie Counter</h1>
+   <div id='tabs'>
+
+<ul>
+
+  <li><a href="#gasmileage">Gas Mileage</a></li>
+
+  <li><a href="#reportcard">Report Card</a></li>
+
+  <li><a href="#calorienumber">Calorie Counter</a></li>
+
+</ul>
+
+
+       
+       
+       
+       
+<div id="gasmileage">  
+
+    <p>Enter Distance Travelled in Km <input type=text id="distancebox"></p>
+    <p>Enter Size of Gas Tank In Litres <input type=text id="gastankbox"></p>
+    <button id="calculateformileage">Calculate the Mileage</button> <button id="resetbtn">Reset</button>
+    <hr>
+    <div id="totalmileage">
+        
+    </div>
+    
+    
+    
+    
+    
+       
+</div>
+
+<div id="reportcard">  
+    
+    <p>Choose to calculate the 4 marks either from Semester 1 or 2</p>
+    <button id="semester1">Semester 1</button> <button id="semester2">Semester 2</button>
+    
+    <div id="courses">
+    <p>Semester <span id="course1"> </span>Course A <input type='text' id="course1field"></p>
+    <br>
+    <p>Semester <span id="course2"> </span>Course B <input type='text' id="course2field"></p>
+    <br>
+    <p>Semester <span id="course3"> </span>Course C<input type='text' id="course3field"></p>
+    <br>
+    <p>Semester <span id="course4"> </span>Course D<input type='text' id="course4field"></p>
+    <br>
+    <button id="getaverage">Get Average</button>
+    <button id="resetbtn2">Reset</button>
+    <div id="average"></div>
+        
+    </div>
+        
+     
+    
+</div>
+
+<div id="calorienumber">    
+    <p>Enter Food Item <input type='text' id="fooditem"></p>
+    <p>Enter Calories <input type='text' id="calories"></p>
+    <button id="add">Add to list</button> <button id="resetbtn3">Reset</button>
+    <hr>
+
+        <p>Total Calories:<span id=amountoftotalcalories> </span></p>
+   
+    <hr>
+    <select size=10 id="thelist">
+        
+    
+    </select>
+    
+    
+    
+    
+</div>
+
+       
+</div>                                               
+    
+    
+    
+    
+    
+<script src="code.js"></script>
+
+</body>
+</html>
